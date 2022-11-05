@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+header{
+    height: 10vh;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+header .link{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    }
+header .link a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
+}
+main .text{
+    width: 30vw;
+}
+main .text p{
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-align: justify;
+}
+main .text button{
+    background-color: black;
+    color: azure;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+main .text button:hover{
+    background-color: azure;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+img .image {
+    
+    background-image: url(phone.webp);
+}
+footer{
+    margin: 0px 33%
+}
+iframe{
+    width: 30vw;
+    margin-left: 100px;
+}
